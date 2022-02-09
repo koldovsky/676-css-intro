@@ -1,0 +1,29 @@
+.header {
+    background-image: url(../img/header/dog-background.png);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.header__banner-h1 {
+  color: red;
+  border: 1px solid black;
+  margin: 40px;
+  font-family: "Great Vibes", cursive;
+}
+
+
+
+.header__banner-subtext {
+  color: darkblue;
+}
+
+.new-arrivals__subtext:hover {
+  font-weight: bold;
+}
+
+.header__banner p::first-letter {
+  text-decoration: underline;
+  font-size: 1rem;
+}
